@@ -1,0 +1,32 @@
+.required{
+  color: red;
+}
+
+thead tr th{
+  border-top-width: 0px;
+  color: #20a8d8;
+  background-color: #e4e7ea;
+}
+tbody tr td {
+
+  text-align: left;
+  padding-bottom: 1px;
+  padding-top: 1px;
+
+}
+
+.crdFooter{
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+:host/deep/ input[type="search"] {
+  height: 32px;
+  width: 300px;
+  -webkit-border-radius: 8px 8px 8px 8px; 
+  font-family: 'Open Sans', sans-serif;
+}
+
+.input-sm{
+  height: 30px;
+}

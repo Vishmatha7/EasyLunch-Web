@@ -1,0 +1,31 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+//Ng select module
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+
+//@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.editbtn{
+    color: green;
+}
+
+.reject{
+    color: red;
+}
+
+.required{
+    color: red;
+  }
+  
+  .inputNumber { 
+    text-align: right; 
+}
+
