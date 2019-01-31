@@ -15,6 +15,8 @@ import { NgSelectModule } from '@ng-select/ng-select';
 import { DataTablesModule } from 'angular-datatables';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { DepartmentComponent } from './department/department.component';
+import { RegisterCompanyComponent } from './register-company/register-company.component';
+import { MealsComponent } from './meals/meals.component';
 
 
 @NgModule({
@@ -28,11 +30,12 @@ import { DepartmentComponent } from './department/department.component';
     DataTablesModule,
     ToastrModule.forRoot(),
     AdministrationRoutingModule,
-   
   ],
   declarations: [
     TestAdministrationComponent,
-    DepartmentComponent
+    DepartmentComponent,
+    RegisterCompanyComponent,
+    MealsComponent
   ]
 })
 export class AdministrationModule { }

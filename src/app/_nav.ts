@@ -27,7 +27,13 @@ export const navItems = [
         name: 'Company',
         url: '/administration/company',
         icon: 'icon-star'
+      },
+      {
+        name: 'Register Company',
+        url: '/administration/registerCompany',
+        icon: 'icon-star'
       }
+
 
     ]
   },

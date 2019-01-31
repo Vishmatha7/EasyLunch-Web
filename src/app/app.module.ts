@@ -53,7 +53,6 @@ import { FormsModule } from '@angular/forms';
 import { ToastrModule } from 'ngx-toastr';
 import { SSRSReportViewerModule } from 'ngx-ssrs-reportviewer';
 
-
 //import { PayItemCategoryComponent } from './mainModule/masterdata/pay-item-category/pay-item-category.component';
 
 
