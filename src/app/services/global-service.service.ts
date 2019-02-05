@@ -7,15 +7,13 @@ export class GlobalServiceService {
 
   constructor() {
     
-   //this._baseUrl ="http://192.168.1.192:5001"
-  this._baseUrl ="http://localhost:20521"
-  // this._baseUrl ="http://192.168.1.192:5001"
-  //  this._baseUrl ="http://localhost:3031"
+  
+  this._baseUrl ="http://localhost:55260"
     this._userId = 1;
     this._userName = "Prabodha"
     this._versionNumber = "6.1.1"
     this._companyId = 1
-    this._companyName = "Scienter Technology"
+    this._companyName = "Eazy Lunch"
    }
    _baseUrl : string;
    _userName : string;
