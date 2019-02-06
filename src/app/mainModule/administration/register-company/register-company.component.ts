@@ -1,3 +1,5 @@
+import { ToastrService } from 'ngx-toastr';
+import { Company } from './../../../models/MasterModel/Company';
 import { Component, OnInit } from '@angular/core';
 import { CompanyService } from '../../../services';
 import { FormBuilder, FormGroup, Validators, FormControl,ReactiveFormsModule } from '@angular/forms';
@@ -24,7 +26,7 @@ export class RegisterCompanyComponent implements OnInit {
   }
   save(company : Company){
     console.log(company);
-    company.ID = -1
+    //company. = -1
     company.PassCode = "001"
     
     this.companySrrvice.saveCompany(company).subscribe(data =>{
