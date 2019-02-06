@@ -17,6 +17,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { DepartmentComponent } from './department/department.component';
 import { RegisterCompanyComponent } from './register-company/register-company.component';
 import { MealsComponent } from './meals/meals.component';
+import { AddMealComponent } from './add-meal/add-meal.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { MealsComponent } from './meals/meals.component';
     TestAdministrationComponent,
     DepartmentComponent,
     RegisterCompanyComponent,
-    MealsComponent
+    MealsComponent,
+    AddMealComponent
   ]
 })
 export class AdministrationModule { }

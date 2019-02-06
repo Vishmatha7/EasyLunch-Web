@@ -32,6 +32,11 @@ export const navItems = [
         name: 'Register Company',
         url: '/administration/registerCompany',
         icon: 'icon-star'
+      },
+      {
+        name: 'Add Meal',
+        url: '/administration/addmeal',
+        icon: 'icon-star'
       }
 
 
